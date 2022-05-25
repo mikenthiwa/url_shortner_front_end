@@ -1,0 +1,45 @@
+.noData {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.shortened-link-results-container {
+    color: #fff;
+    font-size: 18px;
+}
+.shortened-link-results-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shortened-link-results-container ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.shortened-link-results-container ul li div {
+    align-self: center;
+}
+
+
+.shortened-link-results-container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    background: var(--primary-color);
+    border: none;
+}
+
+.shortened-link-results-container button:hover {
+    background: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .copyToClipBoard {
+        padding: 4px 5px !important;
+        width: 30%;
+    }
+}
+
